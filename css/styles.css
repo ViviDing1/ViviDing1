@@ -1,0 +1,153 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+header{
+	background-image: url(../img/hero-banner.jpg);
+	padding-bottom: 250px;
+}
+header nav{
+	display: flex;
+	height: 80px;
+	background-color: rgba(45, 40, 36, 0.7);
+}
+header nav ul{
+	display: flex;
+	font-size: 24px;
+	margin-left: 450px;
+}
+header nav a{
+	text-decoration: none;
+	color: #ddd6d0;
+	margin-right: 30px;
+	line-height: 85px;
+}
+header nav a:hover{
+	border-bottom: 2px solid #ddd6d0;
+}
+header nav img{
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header div{
+	margin-top: 250px;
+	margin-left: 210px;
+	margin-right: 210px;
+	background-color: rgba(45, 40, 36, 0.7);
+	height: 400px;
+	border: 2px solid #ff7e10;
+}
+header div h1{
+	font-size: 72px;
+	color: #ff7e10;
+	padding-top: 30px;	
+	padding-left: 30px;
+}
+header div p{
+	font-size: 24px;
+	color: #ddd6d0;
+	padding-left: 30px;
+}
+header div a{
+	font-size: 30px;
+	color: #ddd6d0;
+	text-decoration: none;
+	padding: 9px 30px;
+	display: inline-block;
+	text-align: center;
+	background-color: #ff7f11;
+	border-radius: 3px;
+	margin-left: 170px;
+	margin-top: 50px;
+}
+header div a:hover{
+	text-decoration: underline;
+}
+.part1{
+	display: flex;
+	margin-top: 100px;
+	background-color: black;
+}
+.part1 h2{
+	font-size: 48px;
+	color: #ff7f11;
+	text-align: center;
+	margin-top: 40px;
+}
+.part1 p{
+	font-size: 16px;
+	color: #ddd6d0;
+	margin-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.part2{
+	margin-top: 100px;
+	background-color: rgba(45, 40, 36, 0.7);
+	background-image: url(../img/pexels-malidate-van-784633.jpg);
+	background-blend-mode: multiply;
+}
+.part2 h2{
+	font-size: 48px;
+	color: #ff7f11;
+	text-align: center;
+	padding-top: 50px;
+}
+.part2 p{
+	padding-top: 30px;
+	font-size: 16px;
+	color: #ddd6d0;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+.part2 a{
+	color: #ff7f11;
+}
+.part2 div div{
+	width: 320px;
+}
+.part2 div{
+	display: flex;
+	flex-wrap: wrap;
+}
+.part2 h3{
+	font-size: 20px;
+	color: #ddd6d0;
+	padding-left: 120px;
+	padding-top: 30px;
+}
+.part2 div div p{
+	text-align: center;
+	padding-left: 90px;
+	line-height: 20px;
+}
+footer{
+	margin-top: 100px;
+	background-color: #4e473f;
+}
+footer h2{
+	font-size: 24px;
+	color: #ddd6d0;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+footer a{;
+	margin-right: 15px;
+	position: relative;
+	left: 38%;
+}
+footer p{
+	color: #ddd6d0;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
